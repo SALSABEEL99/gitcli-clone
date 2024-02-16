@@ -10,7 +10,7 @@
         font-size: 25px;
         padding-left: 30px;
         padding-top: 15px; 
-        /* border: 1px solid red; */
+        
         background-color: #010409;
         color: #e6edf3;
         height: 60px;
@@ -30,7 +30,7 @@
 
     .fa-brands{
         font-size: 40px;
-        margin: ;
+        
     }
     .nav-links{
         flex: 1;
@@ -90,7 +90,7 @@
 .hero{
     background-color: #010409;
     height: 460px;
-    /* border:1px solid red; */
+    
    
     
 }
@@ -479,10 +479,8 @@ padding-top: 75px;
     color: #6e7781;
     margin-left: 10%;
 }
-/* .fa-brands{ */
-    margin-right: 30px;
-    font-size: 60px;
-}
+
+    
 
 /* responsive sub footer */
 

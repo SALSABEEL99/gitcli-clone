@@ -18,16 +18,19 @@
     }
 
     .icon-heading{
-        padding-left: 10px;
+        display: block;
+        
        
     }
     .icon-heading a{
         color:#e6edf3;
         text-decoration: none;
+        
     }
 
     .fa-brands{
-        font-size: 30px;
+        font-size: 40px;
+        margin: ;
     }
     .nav-links{
         flex: 1;
@@ -75,6 +78,7 @@
                 
         }
     .fa-brands{font-size: 30px;
+
         
     }
     .icon-heading{
@@ -104,6 +108,7 @@
     color: #6e7681;
     text-align: center;
     font-size: 24px;
+    padding-right:1% ;
 }
 .hero-btn{
   
@@ -238,7 +243,7 @@ line-height: 3;
         padding-top:0px;
         
     }
-
+    
     .box-main{
         width: 300px;
        
@@ -247,9 +252,254 @@ line-height: 3;
    
     
 }
+/* foot panel */
+
+ .box-heading h1{
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding-top: 64px;
+    padding-left:9%;
+    font-size: 60px;
+    color: #1f2328;
+}
+.text{
+    display: flex;
+    padding-right: 9%;
+    padding-left: 9%;
+    padding-top: 3%;
+    line-height: 1.5;
+    
+    
+}
+.txt-card h3{
+    font-size: 24px;
+    color: #1f2328;
+}
+
+.txt-card p{
+    font-size: 14px;
+    color: #1f2328;
+
+}
+
+.txt-card a{
+    text-decoration: none;
+    color: #0969da;
+}
+
+.bck-sec{
+
+    background-image: url(images/bg.image.png);
+    background-size: cover;
+    height: 420px;
+    margin-top: 5%;
+    
+}
+.bck-txt{
+ position:absolute;
+    height: 300px;
+    width: 620px;
+    background-color:#ffffff;
+    margin-left:29%;
+   
+    margin-top: 4%;
+    
+
+
+}
+
+
+.bck-txt h4{
+    
+    text-align: center;
+    padding-top:40px;
+    padding-right: 5%;
+    font-size: 32px;
+    color: #010409;
+}
+.text p{
+    padding-right: 20px;
+    font-size: 20px;
+}
+.txt-card h3{
+    font-size: 30px;
+    
+}
+.bck-txt p{
+    text-align: center;
+    font-size: 20px;
+    /* padding-right:10% ; */
+    padding-left: 41px;
+    padding-top: 10px;
+    color:#6e7781;
+}
+
+.bck-txt button{
+    background-color: #282d31;
+    color: white;
+    margin-top: 12px;
+    margin-left: 46px;
+    padding: 18px;
+border-radius: 10px;
+font-weight: 700;
+}
+
+.bck-txt h2{
+    font-size: 14px;
+}
+.bck-txt a{
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 47px;
+    color: #0969da;
+}
+    
+/* footupside responsive */
+@media(max-width: 700px) 
+{
+    .box-heading h1{
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+.text{
+    flex-direction: column;
+}
+.bck-sec{
+    width: 300px;
+    
+
+}
+    
+.bck-txt{
+    display: block;
+    height: 450px;
+    width: 250px;
+     margin: 30px;
+     margin-right: 20px;
+    
+}
+.bck-txt h4{
+    font-size: 250;
+}
+.bck-txt P{
+    font-size: medium;
+    margin-right: 10px;
+    padding-right: 15%;
+}
+.d-btn{
+    display: block;
+    margin-right: 30px;
+    
+}
+.bck-txt button {
+    margin-left:auto ;
+    padding-left: 10px;
+}
+.bck-txt a{
+    padding-left: 20px;
+
+
+}
+}
+
+/* services section */
+
+
+.services{
+    display: flex;
+    
+
+}
+.services h1{
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+.ser-txt {
+margin-left: 80px;
+flex-direction: column;
+padding-left: 150px;
+padding-top: 75px;
+
+}
+.ser-txt h3{
+    font-size: 24px;
+}
+
+.services a{
+    display: flex;
+    text-decoration: none;
+    font-size: large;
+    padding-top: 20px;
+    color:#6e7781;
+}
+/* service section responsive */
+@media(max-width: 700px)    
+{
+    .services{
+        display: block;
+        margin-right: auto;
+        
+    }
+    
+    
+   .services-txt h1{
+    display:block;
+    position: relative;
+    font-size:35px;
+    padding-top: 40px;
+    
+   }
+    
+    
+.ser-txt{
+    padding-left: 0%;
+    
+}
+
+}
 
 
 
+/* sub footer section */
+
+.sub-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #f6f8fa;
+    margin-top: 80px;
+}
+
+.sub-footer p {
+    color: #6e7781;
+    margin-left: 10%;
+}
+/* .fa-brands{ */
+    margin-right: 30px;
+    font-size: 60px;
+}
+
+/* responsive sub footer */
+
+@media(max-width: 700px) 
+{
+.sub-footer{
+    /* display: block; */
+    text-align: start;
+    width: 360px;
+    height: 100px;
 
 
+    
+}
+.sub-footer p{
+    font-size: 10px;
+}
+
+}
 

@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
@@ -64,6 +65,10 @@
     }
 /* section nav responsive */
     @media(max-width: 700px) {
+
+        .header{
+            background-color: #0d1117;
+        }
         
             .nav-links ul li a {font-size: 14px;
                 padding-left: -10px;
@@ -125,12 +130,16 @@
 /* hero sec responsive */
 @media(max-width: 700px) 
 {
+
+    .hero{
+        background-color: #0d1117;
+    }
     .hero h1{
         display: start;
         font-size:40px;
        padding-left: 20px;
        line-height: 44px;
-      padding-top: 0;
+      padding-top:13px;
       
        
        
@@ -154,3 +163,93 @@
     padding-left: 10px;
 }
 }
+/* main section */
+.main-sec{
+    height: 750px;
+background-color: #0d1117;
+background: transparent 0.5;
+/* position: relative; */
+background-image: url(images/light-glow.svg);
+
+
+
+
+
+}
+
+.main-sec h2 {
+  text-align: center;
+  padding-top: 60px;
+  color: #e6edf3;
+  font-size: 30px;
+  font-family:monospace;
+  font-weight: 100;    
+}
+.main-sec p{
+    text-align: center;
+    padding-top: 10px;
+    color: #6e7681;
+}
+.main-sec span{
+    color: rgb(17, 49, 231);
+}
+
+
+.box-main{
+    height: 480px;
+    width:1000px ;
+    position: relative;
+    background-image: url(images/light-glow.svg);
+    background-color: #0a080a;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+}
+.circle{
+    padding:1%;
+    
+    color: #1c283b;
+}
+.main-sec h3
+{
+color: #e6edf3;
+line-height: 3;
+}
+.box-txt {
+    padding-left: 5%;
+    font-size: 10px;
+}
+
+.main-sec h1{
+    color: #e6edf3;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 800;
+}
+
+/* main section responsive */
+
+
+@media(max-width: 700px) 
+{
+
+    .main-sec{
+        padding-top:0px;
+        
+    }
+
+    .box-main{
+        width: 300px;
+       
+       
+    }
+   
+    
+}
+
+
+
+
+
+
